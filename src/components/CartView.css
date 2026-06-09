@@ -1,0 +1,55 @@
+.cartview-container {
+  background: #198754;
+  border-radius: 14px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.18);
+  padding: 1.5rem;
+  min-width: 350px;
+}
+.cartview-table th {
+  background: transparent;
+  color: #fff;
+  font-weight: 600;
+  border-bottom: 2px solid #fff;
+}
+.cartview-table td {
+  color: #fff;
+  vertical-align: middle;
+  text-align: center;
+  background: transparent;
+}
+.cartview-table img {
+  border-radius: 8px;
+  border: 2px solid #fff;
+  width: 60px;
+  height: 40px;
+  object-fit: cover;
+  background: #fff;
+}
+.cartview-title {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 1rem;
+  letter-spacing: 1px;
+}
+.cartview-total {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #fff;
+  margin-top: 1rem;
+  text-align: right;
+}
+.cartview-checkout-btn {
+  background: linear-gradient(90deg, #fff 60%, #28a745 100%);
+  color: #198754;
+  border: none;
+  border-radius: 6px;
+  padding: 0.5rem 1.5rem;
+  font-weight: 600;
+  margin-top: 1rem;
+  transition: background 0.2s, color 0.2s;
+}
+.cartview-checkout-btn:hover {
+  background: linear-gradient(90deg, #28a745 60%, #fff 100%);
+  color: #fff;
+}

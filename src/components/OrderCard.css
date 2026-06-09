@@ -1,0 +1,27 @@
+.order-card {
+  background: #198754 !important;
+  border-radius: 14px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.18);
+  color: #fff;
+}
+.order-card .table th,
+.order-card .table td {
+  color: #fff;
+  background: transparent;
+}
+.order-card .table img {
+  border-radius: 8px;
+  border: 2px solid #fff;
+  width: 60px;
+  height: 40px;
+  object-fit: cover;
+  background: #fff;
+}
+.order-card .fw-bold,
+.order-card .text-success,
+.order-card .text-muted {
+  color: #fff !important;
+}
+.order-card .table-bordered {
+  border-color: #fff;
+}

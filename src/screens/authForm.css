@@ -1,0 +1,68 @@
+/* Category button glassmorphism */
+.category-glass-btn {
+  background: rgba(255,255,255,0.18) !important;
+  box-shadow: 0 4px 16px 0 rgba(31,38,135,0.10);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1.5px solid rgba(40,167,69,0.18) !important;
+  border-radius: 12px !important;
+  color: #28a745 !important;
+  font-weight: 600;
+  transition: background 0.3s, color 0.3s;
+}
+.category-glass-btn.active, .category-glass-btn:active, .category-glass-btn:focus {
+  background: rgba(40,167,69,0.18) !important;
+  color: #155724 !important;
+}
+.auth-form-bg {
+  min-height: 100vh;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.auth-form-container {
+  background: rgba(255, 255, 255, 0.18);
+  border-radius: 18px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.18);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1.5px solid rgba(40, 167, 69, 0.18);
+  padding: 2.5rem 2rem 2rem 2rem;
+  max-width: 400px;
+  width: 100%;
+  margin: 2rem auto;
+  transition: box-shadow 0.3s, background 0.3s;
+}
+.auth-form-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #28a745;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.auth-form-label {
+  font-weight: 500;
+  color: #28a745;
+}
+.auth-form-input {
+  border-radius: 8px;
+  border: 1px solid #b2f7ef;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+.auth-form-btn {
+  width: 100%;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+.auth-form-link {
+  display: block;
+  text-align: center;
+  margin-top: 1rem;
+  color: #28a745;
+  text-decoration: underline;
+  font-size: 1rem;
+}

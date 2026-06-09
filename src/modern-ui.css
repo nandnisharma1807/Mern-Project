@@ -1,0 +1,46 @@
+/* Modern UI Tweaks */
+body {
+  background: #f8f9fa;
+}
+.container, .auth-form-container {
+  border-radius: 12px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+  background: #fff;
+  padding: 2rem 1.5rem;
+}
+.btn, .auth-form-btn {
+  border-radius: 6px !important;
+  box-shadow: 0 2px 8px rgba(40,167,69,0.08);
+  transition: background 0.2s, box-shadow 0.2s;
+}
+.btn-success, .auth-form-btn {
+  background: linear-gradient(90deg, #28a745 60%, #218838 100%) !important;
+  border: none !important;
+}
+.btn-success:hover, .auth-form-btn:hover {
+  background: linear-gradient(90deg, #218838 60%, #28a745 100%) !important;
+  box-shadow: 0 4px 16px rgba(40,167,69,0.15);
+}
+input.form-control, .auth-form-input {
+  border-radius: 5px;
+  border: 1px solid #ced4da;
+  box-shadow: none;
+  transition: border 0.2s;
+}
+input.form-control:focus, .auth-form-input:focus {
+  border: 1.5px solid #28a745;
+  outline: none;
+}
+.order-card {
+  box-shadow: 0 2px 12px rgba(40,167,69,0.07);
+  border-radius: 10px;
+  background: #f9fdf9;
+}
+@media (max-width: 600px) {
+  .container, .auth-form-container {
+    padding: 1rem 0.5rem;
+  }
+  .order-card {
+    padding: 1rem 0.5rem !important;
+  }
+}
